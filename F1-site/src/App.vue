@@ -24,7 +24,7 @@ onMounted(() => {
         <div class="flex items-center">
             <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
                 <li>
-                    <a href="#start" class="text-gray-900 dark:text-white hover:underline" aria-current="page">Zacznij przygode</a>
+                    <a href="#start" class="text-gray-900 dark:text-white hover:underline" aria-current="page">Zacznij przygode jajco</a>
                 </li>
                 <li>
                     <a href="#best" class="text-gray-900 dark:text-white hover:underline">Najlpesi kierowcy</a>
