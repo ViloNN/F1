@@ -11,7 +11,7 @@ onMounted(() => {
 <template>
 
 
-<nav class="border-gray-200 dark:bg-gray-900">
+<nav class="bg-white border-gray-200 dark:bg-gray-900">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
         <a href="https://www.formula1.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="/F1.png" class="h-8" alt="F1 Logo" />
@@ -19,7 +19,7 @@ onMounted(() => {
         </a>
     </div>
 </nav>
-<nav class="bg-gray-50 dark:bg-gray-700">
+<nav class="bg-gray-100 dark:bg-gray-700">
     <div class="max-w-screen-xl px-4 py-3 mx-auto">
         <div class="flex items-center">
             <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
@@ -39,10 +39,10 @@ onMounted(() => {
 
 
 
-<section class="dark:bg-gray-900">
+<section class="bg-white dark:bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <a href="https://www.formula1.com/en/page.what-is-f1.html" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
-            <span class="text-xs bg-primary-600 rounded-full text-white px-4 py-1.5 mr-3">Obczaj</span> <span class="text-sm font-medium" href="">Czym jest Formula 1</span> 
+            <span class="text-xs bg-primary-600 rounded-full text-gray-800 dark:text-white px-4 py-1.5 mr-3">Obczaj</span> <span class="text-sm font-medium" href="">Czym jest Formula 1</span> 
             <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
         </a>
         <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Formuła 1: Adrenalina i Szybkość</h1>
@@ -60,7 +60,7 @@ onMounted(() => {
 
 
 
-<section class="dark:bg-gray-900">
+<section class="bg-white dark:bg-gray-900">
   <div class="max-w-screen-xl px-4 mx-auto lg:px-6">
     <div class="max-w-2xl mx-auto mt-8 lg:mt-16">
       <img class="w-full rounded-lg shadow-lg" src="/bolid.jpg"
@@ -75,7 +75,7 @@ onMounted(() => {
 
 
 
-<section class="dark:bg-gray-900 antialiased">
+<section class="bg-white dark:bg-gray-900 antialiased">
   <div class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
     <div class="max-w-2xl mx-auto text-center" id="start">
       <h2 class="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
@@ -87,7 +87,7 @@ onMounted(() => {
     </div>
 
     <div class="mt-12 space-y-16 sm:mt-16">
-      <div class="flex flex-col lg:items-center lg:flex-row gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
+      <div class="text-black dark:text-white flex flex-col lg:items-center lg:flex-row gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
         <div>
           <img class="object-cover w-full rounded-lg shadow-lg"
             src="/start-lights.png" alt="start-light">
@@ -104,7 +104,7 @@ onMounted(() => {
           </div>
 
           <a href="Cały weekend łączy w sobie intensywne przygotowania, strategię i emocjonującą rywalizację." title=""
-            class="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+            class="bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
             role="button">
             Zobacz więcej informacji
             <svg aria-hidden="true" class="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
@@ -117,7 +117,7 @@ onMounted(() => {
         </div>
       </div>
 
-      <div class="flex flex-col lg:items-center lg:flex-row gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
+      <div class="text-black dark:text-white flex flex-col lg:items-center lg:flex-row gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
         <div class="lg:order-2">
           <img class="object-cover w-full rounded-lg shadow-lg"
             src="/who-races.png" alt="">
@@ -134,7 +134,7 @@ onMounted(() => {
           </div>
 
           <a href="https://www.formula1.com/en/drivers.html" title=""
-            class="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+            class="bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
             role="button">
             Zobacz więcej informacji
             <svg aria-hidden="true" class="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
@@ -147,7 +147,7 @@ onMounted(() => {
         </div>
       </div>
 
-      <div class="flex flex-col lg:items-center lg:flex-row gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
+      <div class="text-black dark:text-white flex flex-col lg:items-center lg:flex-row gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
         <div>
           <img class="object-cover w-full rounded-lg shadow-lg" src="/who-team.png"
             alt="">
@@ -164,7 +164,7 @@ onMounted(() => {
           </div>
 
           <a href="https://www.formula1.com/en/teams.html" title=""
-            class="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+            class="bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
             role="button">
             Zobacz więcej informacji
             <svg aria-hidden="true" class="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
@@ -177,7 +177,7 @@ onMounted(() => {
         </div>
       </div>
 
-      <div class="flex flex-col lg:items-center lg:flex-row gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
+      <div class="text-black dark:text-white flex flex-col lg:items-center lg:flex-row gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
         <div class="lg:order-2">
           <img class="object-cover w-full rounded-lg shadow-lg"
             src="/where-race.png" alt="">
@@ -194,7 +194,7 @@ onMounted(() => {
           </div>
 
           <a href="https://www.formula1.com/en/racing/2023.html" title=""
-            class="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+            class="bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
             role="button">
             Zobacz więcej informacji
             <svg aria-hidden="true" class="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
@@ -208,7 +208,7 @@ onMounted(() => {
       </div>
 
 
-            <div class="flex flex-col lg:items-center lg:flex-row gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
+        <div class="text-black dark:text-white flex flex-col lg:items-center lg:flex-row gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
         <div>
           <img class="object-cover w-full rounded-lg shadow-lg" src="/f1-explains.png"
             alt="">
@@ -225,7 +225,7 @@ onMounted(() => {
           </div>
 
           <a href="https://www.formula1.com/en/latest/tags.formula-why.2Cd0j5aoD3EOoaaoaSdgiD.html" title=""
-            class="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+            class="bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
             role="button">
             Zobacz więcej informacji
             <svg aria-hidden="true" class="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
@@ -238,7 +238,7 @@ onMounted(() => {
         </div>
       </div>
       
-      <div class="flex flex-col lg:items-center lg:flex-row gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
+      <div class="text-black dark:text-white flex flex-col lg:items-center lg:flex-row gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
         <div class="lg:order-2">
           <img class="object-cover w-full rounded-lg shadow-lg"
             src="/under-hood.png" alt="">
@@ -255,7 +255,7 @@ onMounted(() => {
           </div>
 
           <a href="https://www.formula1.com/en/latest/tags.technical.4lP4Pth1kICO2iCQqGAIIU.html" title=""
-            class="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+            class=" bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 "
             role="button">
             Zobacz więcej informacji
             <svg aria-hidden="true" class="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
@@ -268,7 +268,7 @@ onMounted(() => {
         </div>
       </div>
 
-<section class="dark:bg-gray-900">
+<section class="bg-white dark:bg-gray-900">
   <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white" id="best">Najlepsi kierowcy F1 w historii</h2>
@@ -300,7 +300,7 @@ onMounted(() => {
           </div> 
           
           
-          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/LewisHamilton.jpg" alt="Bonnie Green">
               </a>
@@ -325,7 +325,7 @@ onMounted(() => {
           </div> 
 
 
-          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/AyrtonSenna.jpg" alt="Michael Gough">
               </a>
@@ -350,7 +350,7 @@ onMounted(() => {
           </div> 
 
 
-          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/NicoRosberg.png" alt="Roberta Casas">
               </a>
@@ -375,7 +375,7 @@ onMounted(() => {
           </div> 
 
 
-          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/SebastianVettel.jpg" alt="Neil Sims">
               </a>
@@ -400,7 +400,7 @@ onMounted(() => {
           </div>  
 
 
-          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/AlainProst.jpg" alt="Joseph Mcfall">
               </a>
@@ -425,7 +425,7 @@ onMounted(() => {
           </div> 
 
 
-          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/JuanManuelFangio.jpg" alt="Thomas Lean">
               </a>
@@ -451,7 +451,7 @@ onMounted(() => {
 
 
         
-          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/NikiLauda.jpg" alt="Karen Nelson">
               </a>
@@ -476,7 +476,7 @@ onMounted(() => {
           </div> 
 
 
-          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/JackieStewart.jpg" alt="Karen Nelson">
               </a>
@@ -501,7 +501,7 @@ onMounted(() => {
           </div> 
 
 
-          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/NelsonPiquet.jpg" alt="Karen Nelson">
               </a>
@@ -526,7 +526,7 @@ onMounted(() => {
           </div> 
 
 
-          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/FernandoAlonso.jpg" alt="Karen Nelson">
               </a>
@@ -551,7 +551,7 @@ onMounted(() => {
           </div> 
 
 
-          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/KimiRaikonen.jpg" alt="Karen Nelson">
               </a>
@@ -604,7 +604,7 @@ onMounted(() => {
 
 
 
-  <footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
+  <footer class="p-4 bg-gray-100 md:p-8 lg:p-10 dark:bg-gray-800">
   <div class="mx-auto max-w-screen-xl text-center">
       <a href="#" class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white">
             <img src="/F1.png" class="h-8" alt="F1 Logo" />
