@@ -11,7 +11,7 @@ onMounted(() => {
 <template>
 
 
-<nav class="bg-white border-gray-200 dark:bg-gray-900">
+<nav class="border-gray-200 dark:bg-gray-900">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
         <a href="https://www.formula1.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="/F1.png" class="h-8" alt="F1 Logo" />
@@ -39,7 +39,7 @@ onMounted(() => {
 
 
 
-<section class="bg-white dark:bg-gray-900">
+<section class="dark:bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <a href="https://www.formula1.com/en/page.what-is-f1.html" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
             <span class="text-xs bg-primary-600 rounded-full text-white px-4 py-1.5 mr-3">Obczaj</span> <span class="text-sm font-medium" href="">Czym jest Formula 1</span> 
@@ -60,7 +60,7 @@ onMounted(() => {
 
 
 
-<section class="bg-white dark:bg-gray-900">
+<section class="dark:bg-gray-900">
   <div class="max-w-screen-xl px-4 mx-auto lg:px-6">
     <div class="max-w-2xl mx-auto mt-8 lg:mt-16">
       <img class="w-full rounded-lg shadow-lg" src="/bolid.jpg"
@@ -75,7 +75,7 @@ onMounted(() => {
 
 
 
-<section class="bg-white dark:bg-gray-900 antialiased">
+<section class="dark:bg-gray-900 antialiased">
   <div class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
     <div class="max-w-2xl mx-auto text-center" id="start">
       <h2 class="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
@@ -268,7 +268,7 @@ onMounted(() => {
         </div>
       </div>
 
-<section class="bg-white dark:bg-gray-900">
+<section class="dark:bg-gray-900">
   <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white" id="best">Najlepsi kierowcy F1 w historii</h2>
@@ -300,7 +300,7 @@ onMounted(() => {
           </div> 
           
           
-          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/LewisHamilton.jpg" alt="Bonnie Green">
               </a>
@@ -325,7 +325,7 @@ onMounted(() => {
           </div> 
 
 
-          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/AyrtonSenna.jpg" alt="Michael Gough">
               </a>
@@ -350,7 +350,7 @@ onMounted(() => {
           </div> 
 
 
-          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/NicoRosberg.png" alt="Roberta Casas">
               </a>
@@ -375,7 +375,7 @@ onMounted(() => {
           </div> 
 
 
-          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/SebastianVettel.jpg" alt="Neil Sims">
               </a>
@@ -400,7 +400,7 @@ onMounted(() => {
           </div>  
 
 
-          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/AlainProst.jpg" alt="Joseph Mcfall">
               </a>
@@ -425,7 +425,7 @@ onMounted(() => {
           </div> 
 
 
-          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/JuanManuelFangio.jpg" alt="Thomas Lean">
               </a>
@@ -451,7 +451,7 @@ onMounted(() => {
 
 
         
-          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/NikiLauda.jpg" alt="Karen Nelson">
               </a>
@@ -476,7 +476,7 @@ onMounted(() => {
           </div> 
 
 
-          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/JackieStewart.jpg" alt="Karen Nelson">
               </a>
@@ -501,7 +501,7 @@ onMounted(() => {
           </div> 
 
 
-          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/NelsonPiquet.jpg" alt="Karen Nelson">
               </a>
@@ -526,7 +526,7 @@ onMounted(() => {
           </div> 
 
 
-          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/FernandoAlonso.jpg" alt="Karen Nelson">
               </a>
@@ -551,7 +551,7 @@ onMounted(() => {
           </div> 
 
 
-          <div class="bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div class="rounded-lg border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="p-4 w-full rounded-lg" src="/KimiRaikonen.jpg" alt="Karen Nelson">
               </a>
